@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.amazonaws:aws-android-sdk-mobile-client-2.6.18">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.18.aar/f2c6dd874d6fe5fb211f0f765fece916/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.18.aar/f2c6dd874d6fe5fb211f0f765fece916/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-mobile-client/2.6.18/689bab050e3d77c066e15afd37661d591d82e9ef/aws-android-sdk-mobile-client-2.6.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

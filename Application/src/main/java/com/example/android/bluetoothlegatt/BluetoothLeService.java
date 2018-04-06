@@ -148,6 +148,8 @@ public class BluetoothLeService extends Service {
                     stringBuilder.append(String.format("%02X ", byteChar));
                 intent.putExtra(EXTRA_DATA, new String(data) + "\n" + stringBuilder.toString());
             }
+            DataModel dm = DataManager.parseData(data);
+            DataManager.insertData(dm);
         }
         sendBroadcast(intent);
     }

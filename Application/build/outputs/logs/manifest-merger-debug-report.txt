@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-50:12
-INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-50:12
-INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-50:12
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
+INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
+INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
 MERGED from [com.android.support:support-v13:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/c16146f3bc609b2412e8582607326056/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/f6d0840edef5a489808dae6bd0cf56da/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/1ffc04349e3534e8dc472312514962c5/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/34855be37a4a0c1c8bdc8fdaaa585df0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.18] /Users/navi/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.18.aar/f2c6dd874d6fe5fb211f0f765fece916/AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:support-media-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/0dda3c36f09f4344e9ea6cdd0d5eadda/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/7102a1e15d1630a745af485c82756f93/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/0861a89876a240781880812446a46939/AndroidManifest.xml:17:1-22:12
@@ -14,9 +15,10 @@ MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/navi/.g
 MERGED from [com.android.support:support-core-ui:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/4a9c770c1e0312f98589206eba880f93/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e5415edb13dc01218dfda1dee5661a4f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9b45bc23beed2ab7d2998a604ecf949b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.18] /Users/navi/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.18.aar/341c86536c237586bf6ed52e82349872/AndroidManifest.xml:2:1-4:80
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/navi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ff89a7352932ca60733153f34ccdeabe/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-50:12
-INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-50:12
+INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
+INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:20:1-53:12
 	package
 		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:21:5-50
 	android:versionName
@@ -43,40 +45,52 @@ uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:34:5-73
 	android:name
 		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:34:22-71
+uses-permission#android.permission.INTERNET
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:35:5-66
+	android:name
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:35:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:5-78
+	android:name
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:5-80
+	android:name
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:22-78
 application
-ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:5-48:19
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:5-51:19
 	android:label
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:36:18-50
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:18-50
 	android:icon
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:37:9-45
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:40:9-45
 	android:theme
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:38:9-56
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:41:9-56
 activity#com.example.android.bluetoothlegatt.DeviceScanActivity
-ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:9-45:20
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:42:9-48:20
 	android:label
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:40:13-45
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:43:13-45
 	android:name
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:39:19-53
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:42:19-53
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:41:13-44:29
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:44:13-47:29
 action#android.intent.action.MAIN
-ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:42:17-68
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:45:17-68
 	android:name
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:42:25-66
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:43:17-76
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:46:17-76
 	android:name
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:43:27-74
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:46:27-74
 activity#com.example.android.bluetoothlegatt.DeviceControlActivity
-ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:46:9-58
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:49:9-58
 	android:name
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:46:19-56
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:49:19-56
 service#com.example.android.bluetoothlegatt.BluetoothLeService
-ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:47:9-77
+ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:50:9-77
 	android:enabled
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:47:53-75
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:50:53-75
 	android:name
-		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:47:18-52
+		ADDED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml:50:18-52
 uses-sdk
 INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
@@ -89,6 +103,8 @@ MERGED from [com.android.support:cardview-v7:27.0.2] /Users/navi/.gradle/caches/
 MERGED from [com.android.support:cardview-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/1ffc04349e3534e8dc472312514962c5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/34855be37a4a0c1c8bdc8fdaaa585df0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/34855be37a4a0c1c8bdc8fdaaa585df0/AndroidManifest.xml:20:5-44
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.18] /Users/navi/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.18.aar/f2c6dd874d6fe5fb211f0f765fece916/AndroidManifest.xml:4:5-73
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.18] /Users/navi/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.18.aar/f2c6dd874d6fe5fb211f0f765fece916/AndroidManifest.xml:4:5-73
 MERGED from [com.android.support:support-media-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/0dda3c36f09f4344e9ea6cdd0d5eadda/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/0dda3c36f09f4344e9ea6cdd0d5eadda/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/7102a1e15d1630a745af485c82756f93/AndroidManifest.xml:20:5-44
@@ -103,6 +119,8 @@ MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/navi/.gr
 MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e5415edb13dc01218dfda1dee5661a4f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9b45bc23beed2ab7d2998a604ecf949b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.2] /Users/navi/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9b45bc23beed2ab7d2998a604ecf949b/AndroidManifest.xml:20:5-44
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.18] /Users/navi/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.18.aar/341c86536c237586bf6ed52e82349872/AndroidManifest.xml:4:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.18] /Users/navi/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.18.aar/341c86536c237586bf6ed52e82349872/AndroidManifest.xml:4:1-69
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/navi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ff89a7352932ca60733153f34ccdeabe/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/navi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ff89a7352932ca60733153f34ccdeabe/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/navi/blueGatt/android-BluetoothLeGatt/Application/src/main/AndroidManifest.xml
