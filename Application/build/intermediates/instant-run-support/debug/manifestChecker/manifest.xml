@@ -63,6 +63,9 @@
             android:name="com.example.android.bluetoothlegatt.BluetoothLeService"
             android:enabled="true" />
 
+        <receiver android:name="com.example.android.bluetoothlegatt.DataBroadcastReciever" >
+        </receiver>
+
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.example.android.bluetoothlegatt.com.android.tools.ir.server.InstantRunContentProvider"

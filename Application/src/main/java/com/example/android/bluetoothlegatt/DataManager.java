@@ -47,10 +47,21 @@ public class DataManager {
         dm.uid = UUID.randomUUID().toString();
         dm.timeStamp = ts;
 
-        dm.deviceId = "1723482-gahjdhjsjf-234ui24iu";
-        dm.dataD = new String(rawData);
+        dm.deviceId = "IrSensor2";
+        dm.dataD = getFormattedData(rawData);
+        Log.d(TAG, "parsingData " + dm.dataD);
 
         return dm;
+    }
+
+    static String getFormattedData(byte[] rawData){
+        StringBuffer sb = new StringBuffer("");
+        for(int i=0; i<rawData.length; i++){
+            int curr = rawData[i];
+            sb.append(curr);
+        }
+
+        return sb.toString();
     }
 
 

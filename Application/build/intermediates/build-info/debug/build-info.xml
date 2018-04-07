@@ -6,28 +6,28 @@
     density="hdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1523057110484"
+    timestamp="1523059783957"
     token="1841900089114461182"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="215" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="18" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"
@@ -62,13 +62,13 @@
 
     <build
         build-mode="FULL"
-        timestamp="1523057110484"
+        timestamp="1523059783957"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/navi/blueGatt/android-BluetoothLeGatt/Application/build/intermediates/split-apk/debug/slices/slice_4.apk"

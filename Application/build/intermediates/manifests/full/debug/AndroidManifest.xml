@@ -62,6 +62,9 @@
         <service
             android:name="com.example.android.bluetoothlegatt.BluetoothLeService"
             android:enabled="true" />
+
+        <receiver android:name="com.example.android.bluetoothlegatt.DataBroadcastReciever" >
+        </receiver>
     </application>
 
 </manifest>

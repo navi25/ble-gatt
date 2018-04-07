@@ -48,6 +48,8 @@
         </activity>
         <activity android:name=".DeviceControlActivity"/>
         <service android:name=".BluetoothLeService" android:enabled="true"/>
+        <receiver android:name=".DataBroadcastReciever" >
+        </receiver>
     </application>
 
 </manifest>
